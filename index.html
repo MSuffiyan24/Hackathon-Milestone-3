@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dynamic Resume Builder</h1>
+    <form id="Resume-Builder">
+
+        <fieldset>
+            <legend>Objective</legend>
+            <label for="objective"></label>
+            <textarea id="objective" type="text" placeholder="Enter your Objective" raw="8" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+            <label for="Education1"></label>
+            <input id="Education1"  type="text" placeholder="Enter Your Qualification" required></input>
+            <label for="Education2"></label>
+            <input id="Education2"  type="text" placeholder="Enter Your Qualification" required></input>
+            <label for="Education3"></label>
+            <input id="Education3"  type="text" placeholder="Enter Your Qualification" required></input>
+            <label for="Education4"></label>
+            <input id="Education4"  type="text" placeholder="Enter Your Qualification" required></input>
+        </fieldset>
+
+        <fieldset>
+            <legend>Experience</legend>
+            <label for="Experience"></label>
+            <textarea id="Experience"  type="text" placeholder="Enter Your Work Experience" rows="10" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="Skills1"></label>
+            <input id="Skills1"  type="text" placeholder="Enter Your Skills" required></Input>
+            <label for="Skills2"></label>
+            <input id="Skills2"  type="text" placeholder="Enter Your Skills" required></Input>
+            <label for="Skills3"></label>
+            <input id="Skills3"  type="text" placeholder="Enter Your Skills" required></Input>
+            <label for="Skills4"></label>
+            <input id="Skills4"  type="text" placeholder="Enter Your Skills" required></Input>
+            <label for="Skills5"></label>
+            <input id="Skills5"  type="text" placeholder="Enter Your Skills" required></Input>
+            <label for="Skills6"></label>
+            <input id="Skills6"  type="text" placeholder="Enter Your Skills" required></Input>
+        </fieldset>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input id="name"  type="text" placeholder="Enter Your Name" required>
+            <label for="FatherName">Father Name:</label>
+            <input id="FatherName"  type="text" placeholder="Enter Your F/Name" required>
+            <label for="Age">Age:</label>
+            <input id="Age"  type="number" placeholder="Enter Your Age" required>
+            <label for="Phone">Phone Number:</label>
+            <input id="Phone"  type="number" placeholder="Enter Your Phone Num" required>
+            <label for="Email">Email:</label>
+            <input id="Email"  type="text" placeholder="Enter Your Email" required>
+            <label for="Address">Address:</label>
+            <textarea id="Address"  type="text" placeholder="Enter Your Adress" rows="3" required></textarea>
+        </fieldset>
+        
+       <fieldset>
+            <legend>Reference</legend>
+            <label for="reference"></label>
+            <input id="reference" type="text" placeholder="Add your Reference">
+       </fieldset>
+
+        <button type="submit">Generate Resume</button>
+    </form>
+
+    <br>
+
+    <div id="Resume-Display">
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
